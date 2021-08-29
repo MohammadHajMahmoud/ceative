@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    
+    height: 100vh;
+    background-image:linear-gradient(rgba(90, 88, 88, 0.7),rgba(48, 47, 47, 0.7)),url(assets/img/back.jpg);
+    background-position: center;
+    background-size: cover;
+ 
+    padding-left: 9%;
+    padding-right: 9%;
+    
+    overflow: auto;
+
+    
+}
+.navbar{
+   
+    height: 11vh;
+ 
+   
+}
+.logo{
+  margin-top: 5px;
+   
+    width: 100px ;
+    cursor: pointer;
+    margin: bot;
+    
+}
+nav{
+
+}
+nav ul{
+  
+    float: right;
+    
+    width: 40%;
+    
+}
+nav ul li{
+    color: cornsilk;
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+text-decoration: none;
+
+
+}
+nav ul li a{
+    border: 1px solid #fff;
+padding: 5px 20px;
+    text-decoration: none;
+    color: rgb(248, 240, 240);
+}
+nav ul li a:hover
+{
+background-color: rgb(233, 173, 228);
+color: cornsilk;
+}
+
+
+.midpage{
+    font-family: Arial, Helvetica, sans-serif;
+   position: absolute;
+   top: 38%;
+   left: 25%;
+   width: 50%;
+ 
+
+}
+
+h1{
+  
+    
+    font-size: 40px;
+    color: cornsilk;
+    text-align: center;
+}
+p{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    color: cornsilk;
+}
+.find{
+   text-align: center;
+    color: rgb(247, 243, 243);
+    font-size: 16px;
+   width: 40%;
+    font-family: 'Courier New', Courier, monospace;
+    border: 0;
+    border-radius: 38px;
+    padding : 15px 120px;
+    background-color: rgb(156, 118, 151);
+    text-decoration: none;
+    display: block;
+    margin:auto;
+    margin-top: 30px;
+    
+}
+.find:hover
+{
+    background-color: rgb(233, 173, 228);
+    color: cornsilk;
+}
+h3{
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.types1{
+    
+   
+     align-items: center;
+     background-color:rgba(230, 208, 226, 0.842);
+
+ height: 50vh;
+ width: 100%;
+     
+
+
+}
+.types2{
+   
+    align-items: center;
+     background-color:rgba(230, 208, 226, 0.842);
+  
+     height: 60vh;
+    width:100%;
+}
+
+
+.card{
+    
+   display:inline-block;
+   margin: auto;
+    font-size: 20px ;
+    width: 250px ;
+    height: 350px ;
+border-radius: 10px;
+padding: 50px 10px;
+cursor: pointer;
+margin: 20px 60px;
+background-position: center;
+background-size:cover;
+border: 0;
+    border-radius: 38px;
+    transition-duration: 0.5s;
+
+}
+.cardo{
+ 
+    display: inline-block;
+     font-size: 20px ;
+     width: 250px ;
+     height: 350px ;
+ border-radius: 10px;
+ padding: 50px 35px;
+ cursor: pointer;
+ margin: 15px 100px;
+ background-position: center;
+ background-size:cover;
+ border: 0;
+     border-radius: 38px;
+     transition-duration: 0.5s;
+ 
+ }
+
+
+h2{
+    background-color:rgba(226, 186, 220, 0.842);
+    width: fit-content;
+    border: 0;
+    border-radius: 38px;
+
+}
+
+.card:hover{
+    transform: translateY(-13px);
+}
+.cardo:hover{
+    transform: translateY(-13px);
+}
+
+.card1{
+    background-image: url(assets/img/1.jpg);
+
+}
+.card2{
+    margin-left: 180px;
+    background-image: url(assets/img/2.jpg);
+  
+}
+.card3{
+    background-image: url(assets/img/f9b70ddb4020a87967355d74b2247163.jpg);
+   margin-left: 300px;
+   margin-top: 30px;
+}
+.card4{
+    background-image: url(assets/img/4.jpg);
+    margin-left:140px;
+   
+}.card5{
+    background-image: url(assets/img/5.jpg);
+   margin-left: 120px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fcfcfc;
+}
+
+
+.signup-box {
+  width: 360px;
+  height: 500px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+  background-color:rgba(253, 189, 244, 0.842); ;
+  
+
+}h3 {
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  h4 {
+    text-align: center;
+  }
+  
+  form {
+      
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+   
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="button"] {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(233, 173, 228);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .backgorundsign{
+      background-color:rgb(236, 198, 233)
+ 
+  }
+.footer{
+   
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(233, 173, 228);
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    
+  
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.idk{
+text-align: center;
+}
+
+.socials{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+.socials a ul{
+    display: inline;
+}
+.socials a i{
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+@media (max-width: 1200px){
+    nav ul{
+        margin-top: 30px;
+      float: left;
+       width: 100%;
+       text-align: center;
+
+   }
+   nav ul li{
+       margin-left:10px;
+   }
+   .types1{
+       align-items: center;
+       height: max-content;
+   width: 100%;
+    
+   }
+   .types2{
+      
+    width: 100%;
+    height: max-content;
+  
+}
+.card.card1{
+    margin-left:90px;
+   }
+   .card.card2{
+    margin-left: 90px;
+   }
+.card3{
+   margin-left: 90px;
+   }
+.card4{
+    margin-left: 90px;
+}
+.card5{
+    margin-left: 90px;
+}
+}
+
+@media (min-width: 575.98){
+    nav ul{
+        margin-top: 30px;
+      float: left;
+       width: 100%;
+       text-align: center;
+
+   }
+   nav ul li{
+       margin-left:10px;
+   }
+   .types1{
+       align-items: center;
+       height: max-content;
+   width: 100%;
+    
+   }
+   .types2{
+      
+    width: 100%;
+    height: max-content;
+  
+}
+.card.card1{
+    align-self: center;
+   }
+   .card.card2{
+    margin-left: 90px;
+   }
+.card3{
+   margin-left: 90px;
+   }
+.card4{
+    margin-left: 90px;
+}
+.card5{
+    margin-left: 90px;
+}
+}
+
